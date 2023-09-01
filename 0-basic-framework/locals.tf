@@ -5,12 +5,12 @@ locals {
         a-bool = true
         the-list = [1,2,3]
         the-map = {
-            foo = bar
-            baz = bat
+            foo = "bar"
+            baz = "bat"
         }
     }
 
     this-is-a-num = 123.987
     this-is-a-string = "hello, world!"
-    this-is-interpolated = "${local.this-is-a-string}. The number is ${local.this-is-a-num}"
+    this-is-interpolated = "${local.this-is-a-string} The number is ${local.this-is-a-num}"
 }
