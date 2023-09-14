@@ -1,0 +1,7 @@
+# terraform auto generated files
+.terraform*
+*.tfplan
+*.tfstate
+
+# the name I use to specify output files, like `terraform plan > plan.out`
+*.out
